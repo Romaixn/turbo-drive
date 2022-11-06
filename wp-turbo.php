@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:     Wp Turbo
- * Plugin URI:      PLUGIN SITE HERE
+ * Plugin Name:     WP Turbo
+ * Plugin URI:      https://rherault.fr
  * Description:     Integrate Turbo with WordPress.
  * Author:          Romain Herault
  * Author URI:      https://rherault.fr
@@ -12,4 +12,6 @@
  * @package         Wp_Turbo
  */
 
-// Your code starts here.
+add_action('wp_enqueue_scripts', function() {
+	wp_enqueue_script('wp-turbo', plugins_url('/dist/main.js', __FILE__));
+});
