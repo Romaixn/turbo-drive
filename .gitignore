@@ -7,8 +7,7 @@ node_modules/
 *.sql
 *.tar.gz
 *.zip
-dist/*
-!dist/.gitignore
+dist/
 
 # User-specific stuff
 .idea/**/workspace.xml
