@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     WP Turbo
  * Plugin URI:      https://rherault.fr
- * Description:     Integrate Turbo with WordPress.
+ * Description:     Integrate Hotwired Turbo with WordPress, no refresh, no page reload, no jQuery, no bullshit.
  * Author:          Romain Herault
  * Author URI:      https://rherault.fr
  * Text Domain:     wp-turbo

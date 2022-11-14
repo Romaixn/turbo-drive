@@ -1,15 +1,15 @@
 === Wp Turbo ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: https://example.com/
-Tags: comments, spam
+Contributors: rherault
+Donate link: https://github.com/sponsors/Romaixn
+Tags: turbo, swup, no refresh, optimize, spa
 Requires at least: 4.5
-Tested up to: 6.0.2
+Tested up to: 6.1.0
 Requires PHP: 5.6
 Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Integrate Hotwired Turbo with WordPress, no refresh, no page reload, no jQuery, no bullshit.
 
 == Description ==
 
