@@ -15,3 +15,7 @@
 add_action('wp_enqueue_scripts', function() {
 	wp_enqueue_script('wp-turbo', plugins_url('/dist/main.js', __FILE__));
 });
+
+add_action('admin_head', function() {
+	echo '<meta name="turbo-visit-control" content="reload">';
+});
