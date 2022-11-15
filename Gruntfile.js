@@ -9,7 +9,7 @@ module.exports = function( grunt ) {
 
 		addtextdomain: {
 			options: {
-				textdomain: 'wp-turbo',
+				textdomain: 'turbo-drive',
 			},
 			update_all_domains: {
 				options: {
@@ -32,8 +32,8 @@ module.exports = function( grunt ) {
 				options: {
 					domainPath: '/languages',
 					exclude: [ '\.git/*', 'bin/*', 'node_modules/*', 'tests/*' ],
-					mainFile: 'wp-turbo.php',
-					potFilename: 'wp-turbo.pot',
+					mainFile: 'turbo-drive.php',
+					potFilename: 'turbo-drive.pot',
 					potHeaders: {
 						poedit: true,
 						'x-poedit-keywordslist': true
