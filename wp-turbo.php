@@ -1,15 +1,15 @@
 <?php
 /**
- * Plugin Name:     WP Turbo
+ * Plugin Name:     Turbo WP
  * Plugin URI:      https://rherault.fr
- * Description:     Integrate Hotwired Turbo with WordPress, no refresh, no page reload, no jQuery, no bullshit.
+ * Description:     Integrate Hotwired Turbo with WordPress, no page reload, no jQuery, no bullshit.
  * Author:          Romain Herault
  * Author URI:      https://rherault.fr
  * Text Domain:     wp-turbo
  * Domain Path:     /languages
  * Version:         0.1.0
  *
- * @package         Wp_Turbo
+ * @package         WP_Turbo
  */
 
 add_action('wp_enqueue_scripts', function() {
