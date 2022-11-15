@@ -2,7 +2,7 @@
 /**
  * PHPUnit bootstrap file.
  *
- * @package Wp_Turbo
+ * @package Turbo_Drive
  */
 
 $_tests_dir = getenv( 'WP_TESTS_DIR' );

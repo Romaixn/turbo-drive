@@ -2,7 +2,7 @@
 /**
  * Class SampleTest
  *
- * @package Wp_Turbo
+ * @package Turbo_Drive
  */
 
 /**
