@@ -41,3 +41,7 @@ node_modules
 *.sql
 *.tar.gz
 *.zip
+assets
+Dockerfile
+docker-compose.yml
+vite.config.js

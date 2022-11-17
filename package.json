@@ -5,6 +5,7 @@
   "author": "Romain Herault",
   "scripts": {
     "dev": "wp-env start",
+    "wp-env": "wp-env",
     "start": "grunt default",
     "readme": "grunt readme",
     "i18n": "grunt i18n",
