@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:     Turbo Drive
+ * Plugin Name:     TD Turbo Drive
  * Plugin URI:      https://wordpress.org/plugins/turbo-drive
  * Description:     Integrate Hotwired Turbo with WordPress, no page reload, no jQuery, no bullshit.
  * Author:          Romain Herault
