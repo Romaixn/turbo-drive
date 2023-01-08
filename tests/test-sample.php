@@ -2,7 +2,7 @@
 /**
  * Class SampleTest
  *
- * @package Turbo_Drive
+ * @package Turbo_Spa
  */
 
 /**
