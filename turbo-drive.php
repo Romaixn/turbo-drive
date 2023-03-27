@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name:     Turbo SPA
- * Plugin URI:      https://wordpress.org/plugins/turbo-spa
+ * Plugin Name:     Turbo Drive
+ * Plugin URI:      https://wordpress.org/plugins/td-turbo-drive
  * Description:     Integrate Hotwired Turbo with WordPress, no page reload, no jQuery, no bullshit.
  * Author:          Romain Herault
  * Author URI:      https://rherault.dev
- * Text Domain:     turbo-spa
+ * Text Domain:     turbo-drive
  * Domain Path:     /languages
  * Version:         0.2.0
  *
@@ -13,7 +13,7 @@
  */
 
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_script('turbo-spa', plugins_url('/dist/main.js', __FILE__));
+    wp_enqueue_script('turbo-drive', plugins_url('/dist/main.js', __FILE__));
 });
 
 add_action('admin_head', function () {

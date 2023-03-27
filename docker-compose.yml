@@ -15,7 +15,7 @@ services:
       WORDPRESS_DB_NAME: exampledb
     volumes:
       - wordpress:/var/www/html
-      - .:/app/public/wp-content/plugins/turbo-spa
+      - .:/app/public/wp-content/plugins/turbo-drive
 
   db:
     image: mysql

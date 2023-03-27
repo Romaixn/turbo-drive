@@ -1,5 +1,5 @@
 {
-  "name": "turbo-spa",
+  "name": "turbo-drive",
   "version": "0.2.0",
   "main": "Gruntfile.js",
   "author": "Romain Herault",
@@ -16,7 +16,7 @@
     "grunt": "^1.5.3",
     "grunt-wp-i18n": "^1.0.3",
     "grunt-wp-readme-to-markdown": "^2.1.0",
-    "vite": "^3.2.2"
+    "vite": "^4.2.1"
   },
   "dependencies": {
     "@hotwired/turbo": "^7.2.4"
