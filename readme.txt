@@ -3,9 +3,9 @@ Contributors: rherault
 Donate link: https://github.com/sponsors/Romaixn
 Tags: turbo, swup, no refresh, optimize, spa
 Requires at least: 5.7.0
-Tested up to: 6.1.1
+Tested up to: 6.3.2
 Requires PHP: 7.4
-Stable tag: 0.2.0
+Stable tag: 0.3.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,12 @@ Integrate Hotwired Turbo with WordPress, no page reload, no jQuery.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 0.3.2 =
+* Upgrading dependencies
+
+= 0.3.0 =
+* Change plugin name
 
 = 0.2.0 =
 * Add attribute to all assets to reload page if it change

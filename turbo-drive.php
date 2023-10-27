@@ -7,7 +7,7 @@
  * Author URI:      https://rherault.dev
  * Text Domain:     turbo-drive
  * Domain Path:     /languages
- * Version:         0.2.0
+ * Version:         0.3.2
  *
  * @package         Turbo_Drive
  */

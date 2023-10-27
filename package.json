@@ -1,6 +1,6 @@
 {
   "name": "turbo-drive",
-  "version": "0.2.0",
+  "version": "0.3.2",
   "main": "Gruntfile.js",
   "author": "Romain Herault",
   "scripts": {
