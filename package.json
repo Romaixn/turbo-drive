@@ -16,7 +16,7 @@
     "grunt": "^1.6.1",
     "grunt-wp-i18n": "^1.0.3",
     "grunt-wp-readme-to-markdown": "^2.1.0",
-    "vite": "^5.0.0"
+    "vite": "^5.0.1"
   },
   "dependencies": {
     "@hotwired/turbo": "^7.3.0"
