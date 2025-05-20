@@ -12,8 +12,20 @@
  * @package         Turbo_Drive
  */
 
+// Include settings class file
+require_once plugin_dir_path(__FILE__) . 'includes/class-turbo-drive-settings.php';
+
+// Initialize settings class
+$turbo_drive_settings = Turbo_Drive_Settings::get_instance();
+
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('turbo-drive', plugins_url('/dist/main.js', __FILE__));
+
+    // Add progress bar color to JavaScript parameters
+    $options = Turbo_Drive_Settings::get_instance()->get_options();
+    wp_localize_script('turbo-drive', 'turboDriveOptions', array(
+        'progressBarColor' => $options['progress_bar_color'],
+    ));
 }, 10);
 
 add_action('admin_head', function () {
