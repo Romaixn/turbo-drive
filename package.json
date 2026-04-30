@@ -12,7 +12,7 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "@wordpress/env": "^11.4.0",
+    "@wordpress/env": "^11.5.0",
     "grunt": "^1.6.2",
     "grunt-wp-i18n": "^1.0.4",
     "grunt-wp-readme-to-markdown": "^2.1.0",
