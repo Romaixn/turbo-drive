@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@wordpress/env": "^11.11.0",
-    "grunt": "^1.6.2",
+    "grunt": "^1.6.3",
     "grunt-wp-i18n": "^1.0.4",
     "grunt-wp-readme-to-markdown": "^2.1.0",
     "vite": "^8.1.5"
